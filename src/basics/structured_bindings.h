@@ -50,7 +50,7 @@ namespace basics
 	TEST_F(StructuredBindingsTest, DivideNegativeWithRemainder)
 	{
 		auto [fraction, remainder] = m_strcBindings.get_divide_results(-18, 2);
-		EXPECT_EQ(9, fraction);
+		EXPECT_EQ(-9, fraction);
 		EXPECT_EQ(0, remainder);
 	}
 }
