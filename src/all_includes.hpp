@@ -1,4 +1,4 @@
 #pragma once
 
-#include "basics/basics.hpp"
-#include "meta/tests/test_min_max.hpp"
+#include "stdcpp/stdcpp.hpp"
+#include "meta/meta.hpp"
